@@ -17,21 +17,7 @@
 ### API Installation
 1. Connect to the API server via SSH.
 2. Run the following commands:
-`curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
-`sudo apt-get install -y nodejs`
-`sudo apt-get update`
-`sudo npm install -g pm2`
-`sudo pm2 startup systemd`
-`sudo apt-get install -y nginx`
-`sudo ufw allow OpenSSH`
-`sudo ufw allow 'Nginx Full'`
-`sudo ufw --force enable`
-`sudo git clone https://github.com/casi-devops-team/industrial-dashboard-backend.git /opt/back-end`
-Provide your GitHub credentials if required.
-`cd /opt/back-end && sudo npm install`
-`sudo pm2 start index.js --name main-api` 
-`sudo git clone https://github.com/casi-devops-team/industrial-dashboard-backend-cellular.git /opt/back-end2`
-`cd /opt/back-end2 && sudo npm install`
-`sudo pm2 start index.js --name cellular-api`
+`curl https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/db255bc2907ba19c3d135269e5911a82b80aa376/local-casi-frontend.sh | sudo bash`
+3. Next
 
     
