@@ -15,9 +15,13 @@
 | Ubuntu 20.04 | Ubuntu 20.04 | Ubuntu 20.04 |
 
 ### API Installation
-1. Connect to the API server via SSH.
+1. Connect to the Frontend server via SSH.
 2. Run the following command in a server to launch the frontend web server:
 `curl https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/db255bc2907ba19c3d135269e5911a82b80aa376/local-casi-frontend.sh | sudo bash`
-3. Next
+3. Connect to API server via SSH.
+4. Run the following command in a server to launch the backend web server:
+`curl https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/88297145731fe5ff34f756b955d5c7301d5c03a7/local-casi-backend.sh | sudo bash`
+5. Connect to Second API server via SSH.
+5. Connect to Database server via SSH.
 
     
