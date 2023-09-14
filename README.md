@@ -20,15 +20,14 @@
    ```
    bash <(curl -s https://gist.githubusercontent.com/casi-devops-team/31a5680df02c9632830a574ec895db37/raw/687b145aa23db4bc4b50f93c6a3ea94b263323a7/local-casi-mqtt.sh)
    ```
-   
-   Now you can access the mqtt broker server at `http://server-ip-address/` or at `http://server-hostname/`
+   Now you can access the mqtt broker server at `http://server-ip-address/` or at `http://server-hostname/`. The server must accept inbound traffic through ports `1883,8083,8084,8883,18083`. Configure the firewall to enable these ports. We reccement you to get support of a professional for firewall configuaration.
 4. Connect to the database server via SSH or go to terminal:
 5. Run the following command in a server to launch the database server:
    ```
    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/a20e464c7191b6b635348fbbd974ee9b32b63095/local-casi-database.sh && sudo bash casi_script.sh
    ```
-   
    Now you can access influxDB at `http://server-ip-address-or-hostname:8086` and MySQL server via port `3307`.
+   The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We reccement you to get support of a professional for firewall configuaration.
 7. Run the following command in a server to launch the backend web server:
 `curl https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/88297145731fe5ff34f756b955d5c7301d5c03a7/local-casi-backend.sh | sudo bash`
 8. Run the following command in a server to launch the frontend web server:
