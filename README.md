@@ -24,7 +24,7 @@
 3. Connect to the database server via SSH or go to terminal:
 4. Run the following command in a server to launch the database server:
    ```
-   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/10227866ff020e56fb82f32eee6bed613a80662c/local-casi-database.sh && sudo bash casi_script.sh
+   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/00299fcfbeef744c0d2c3b6c8b92ae72b07c8ff7/local-casi-database.sh && sudo bash casi_script.sh
    ```
    Now you can access influxDB at `http://server-ip-address-or-hostname:8086` and MySQL server via port `3307`.
    The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We reccement you to get support of a professional for firewall configuaration.
