@@ -20,7 +20,7 @@
    `bash <(curl -s https://gist.githubusercontent.com/casi-devops-team/31a5680df02c9632830a574ec895db37/raw/687b145aa23db4bc4b50f93c6a3ea94b263323a7/local-casi-mqtt.sh)`
 3. Connect to the database server via SSH:
 4. Run the following command in a server to launch the database server:
-   `bash <(curl -s https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/8d30657f1418c6ef882c35b3e07cfdb22acb7589/local-casi-database.sh)`
+   `bash <(curl -s https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/95302fc40f7fb7ecb4650341b4c0e4a54957b7f5/local-casi-database.sh)`
 6. Run the following command in a server to launch the backend web server:
 `curl https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/88297145731fe5ff34f756b955d5c7301d5c03a7/local-casi-backend.sh | sudo bash`
 7. Run the following command in a server to launch the frontend web server:
