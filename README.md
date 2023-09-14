@@ -18,9 +18,10 @@
 1. Connect to the MQTT broker server via SSH.
 2. Run the following command and follow the instructions to launch the mqtt broker.
    `bash <(curl -s https://gist.githubusercontent.com/casi-devops-team/31a5680df02c9632830a574ec895db37/raw/687b145aa23db4bc4b50f93c6a3ea94b263323a7/local-casi-mqtt.sh)`
-3. Connect to the database server via SSH:
-4. Run the following command in a server to launch the database server:
-   `curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/a20e464c7191b6b635348fbbd974ee9b32b63095/local-casi-database.sh && sudo bash casi_script.sh`
+   Now you can access the mqtt broker server at `http://server-ip-address/` or at `http://server-hostname/`
+4. Connect to the database server via SSH:
+5. Run the following command in a server to launch the database server:
+   ```curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/a20e464c7191b6b635348fbbd974ee9b32b63095/local-casi-database.sh && sudo bash casi_script.sh```
 6. Run the following command in a server to launch the backend web server:
 `curl https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/88297145731fe5ff34f756b955d5c7301d5c03a7/local-casi-backend.sh | sudo bash`
 7. Run the following command in a server to launch the frontend web server:
