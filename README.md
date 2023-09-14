@@ -17,7 +17,7 @@
 ### API Installation
 1. Connect to the MQTT broker server via SSH.
 2. Run the following command and follow the instructions to launch the mqtt broker.
-   `curl https://gist.githubusercontent.com/casi-devops-team/31a5680df02c9632830a574ec895db37/raw/268b9dfbae398a169c70f33400ed50ade4588343/local-casi-mqtt.sh`
+   `curl https://gist.githubusercontent.com/casi-devops-team/31a5680df02c9632830a574ec895db37/raw/268b9dfbae398a169c70f33400ed50ade4588343/local-casi-mqtt.sh | sudo bash`
 3. Run the following command in a server to launch the frontend web server:
 `curl https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/db255bc2907ba19c3d135269e5911a82b80aa376/local-casi-frontend.sh | sudo bash`
 5. Connect to API server via SSH.
