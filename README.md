@@ -28,16 +28,27 @@
    ```
    Now you can access influxDB at `http://server-ip-address-or-hostname:8086` and MySQL server via port `3307`.
    The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
-5. Connect to backend API server via SSH or open the terminal on the backend API server:
-8. Run the following command in a server to launch the backend web server:
+5. Copy InfluxDB Organization ID:
+   Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above.
+   i. Go to About section of your organization
+      ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
+   ii. Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
+7. Generate INFLUX QUERY TOKEN:
+   i. Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
+   ![Go to API Tokens](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/5956f7af-fb12-4a71-8206-39af7a4f8b63)
+   ii. Click **GENERATE API TOKEN**.
+   ![Click GENERATE API TOKEN](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/97833c4a-aa39-4516-b51d-3a19e897df7f)
+
+9. Connect to backend API server via SSH or open the terminal on the backend API server:
+10. Run the following command in a server to launch the backend web server:
    ```
    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/88297145731fe5ff34f756b955d5c7301d5c03a7/local-casi-backend.sh && sudo bash casi_script.sh
    ```
-10. Run the following command in a server to launch the frontend web server:
+11. Run the following command in a server to launch the frontend web server:
 `curl https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/db255bc2907ba19c3d135269e5911a82b80aa376/local-casi-frontend.sh | sudo bash`
-11. Connect to API server via SSH.
+12. Connect to API server via SSH.
 
-12. Connect to Second API server via SSH.
+13. Connect to Second API server via SSH.
 5. Connect to Database server via SSH.
 
     
