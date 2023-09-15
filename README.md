@@ -45,8 +45,13 @@
    - Click **GENERATE**.
    - Copy API Token and store it securely. You will need this INFLUX QUERY TOKEN in the following steps.
      ![Screenshot (24)](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/575da537-3f8c-4dd1-9e50-5c2eb102222a)
-9. Connect to backend API server via SSH or open the terminal on the backend API server:
-10. Run the following command in a server to launch the backend web server:
+7. Connect to second backend API server via SSH or open the terminal on the second backend API server:
+8. Run the following command in a server to launch the second backend API server:
+   ```
+   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/8f73570ddc96088faa38fe6b96b38933/raw/b7ad4142c3425003e7238dcc532ab0f70700e51a/local-casi-backend-cellular.sh && sudo bash casi_script.sh
+   ```
+10. Connect to backend API server via SSH or open the terminal on the backend API server:
+11. Run the following command in a server to launch the backend API web server:
    ```
    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/eadac418ad6dcdb8364586dafd4ab0e43f2281ce/local-casi-backend.sh && sudo bash casi_script.sh
    ```
