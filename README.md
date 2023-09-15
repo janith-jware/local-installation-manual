@@ -33,7 +33,7 @@
    - Go to **About** section of your organization
      ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
    - Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
-7. Generate INFLUX QUERY TOKEN:
+6. Generate INFLUX QUERY TOKEN:
    - Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
      ![Go to API Tokens](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/5956f7af-fb12-4a71-8206-39af7a4f8b63)
    - Click **GENERATE API TOKEN**.
@@ -48,7 +48,7 @@
 9. Connect to backend API server via SSH or open the terminal on the backend API server:
 10. Run the following command in a server to launch the backend web server:
    ```
-   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/88297145731fe5ff34f756b955d5c7301d5c03a7/local-casi-backend.sh && sudo bash casi_script.sh
+   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/eadac418ad6dcdb8364586dafd4ab0e43f2281ce/local-casi-backend.sh && sudo bash casi_script.sh
    ```
 11. Run the following command in a server to launch the frontend web server:
 `curl https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/db255bc2907ba19c3d135269e5911a82b80aa376/local-casi-frontend.sh | sudo bash`
