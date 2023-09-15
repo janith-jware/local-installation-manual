@@ -2,12 +2,12 @@
 
 ### Recommended Requirements:
  - 3 Web Servers
- - MySQL Server
- - InfluxDB Server
+ - Database Server
+ - MQTT Broker Server
 
 #### Server Requirements:
 | API | API2 | Frontend App | MQTT Broker | Database Server |
-|--|--|--|--|
+|--|--|--|--|--|
 | 4 vCPUs | 2 vCPUs | 1 vCPU | 2 vCPUs | 2 vCPUs |
 | 16GB RAM | 8GB RAM | 1GB RAM | 4GB RAM | 4GB RAM |
 | 50GB Storage | 50GB Storage | 8GB Storage | 8GB Storage | 100GB Storage (To be scaled with usage growth) |
