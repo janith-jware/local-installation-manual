@@ -50,16 +50,18 @@
    ```
    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/8f73570ddc96088faa38fe6b96b38933/raw/b7ad4142c3425003e7238dcc532ab0f70700e51a/local-casi-backend-cellular.sh && sudo bash casi_script.sh
    ```
-10. Connect to backend API server via SSH or open the terminal on the backend API server:
-11. Run the following command in a server to launch the backend API web server:
-   ```
-   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/eadac418ad6dcdb8364586dafd4ab0e43f2281ce/local-casi-backend.sh && sudo bash casi_script.sh
-   ```
+9. Connect to backend API server via SSH or open the terminal on the backend API server:
+10. Run the following command in a server to launch the backend API web server:
+    ```
+    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/eadac418ad6dcdb8364586dafd4ab0e43f2281ce/local-casi-backend.sh && sudo bash casi_script.sh
+    ```
 11. Run the following command in a server to launch the frontend web server:
-`curl https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/db255bc2907ba19c3d135269e5911a82b80aa376/local-casi-frontend.sh | sudo bash`
-12. Connect to API server via SSH.
+    ```
+    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/db255bc2907ba19c3d135269e5911a82b80aa376/local-casi-frontend.sh && sudo bash casi_script.sh
+    ```
+13. Connect to API server via SSH.
 
-13. Connect to Second API server via SSH.
+14. Connect to Second API server via SSH.
 5. Connect to Database server via SSH.
 
     
