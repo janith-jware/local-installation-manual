@@ -30,13 +30,13 @@
    The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
 5. Copy InfluxDB Organization ID:
    Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above.
-   i. Go to About section of your organization
+   - Go to About section of your organization
       ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
-   ii. Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
+   - Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
 7. Generate INFLUX QUERY TOKEN:
-   i. Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
+   - Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
    ![Go to API Tokens](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/5956f7af-fb12-4a71-8206-39af7a4f8b63)
-   ii. Click **GENERATE API TOKEN**.
+   - Click **GENERATE API TOKEN**.
    ![Click GENERATE API TOKEN](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/97833c4a-aa39-4516-b51d-3a19e897df7f)
 
 9. Connect to backend API server via SSH or open the terminal on the backend API server:
