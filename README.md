@@ -29,7 +29,7 @@
    Now you can access influxDB at `http://server-ip-address-or-hostname:8086` and MySQL server via port `3307`.
    The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
 5. Copy InfluxDB Organization ID:
-   Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above.
+   * Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above.
    - Go to About section of your organization
       ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
    - Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
