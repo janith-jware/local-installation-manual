@@ -53,7 +53,7 @@
 9. Connect to backend API server via SSH or open the terminal on the backend API server:
 10. Run the following command in a server to launch the backend API web server:
     ```
-    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/eadac418ad6dcdb8364586dafd4ab0e43f2281ce/local-casi-backend.sh && sudo bash casi_script.sh
+    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/062d8741802fcd82cb812094cecb253d10fdcc09/local-casi-backend.sh && sudo bash casi_script.sh
     ```
 11. Run the following command in a server to launch the frontend web server:
     ```
