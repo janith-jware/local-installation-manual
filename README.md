@@ -20,7 +20,7 @@
    ```
    bash <(curl -s https://gist.githubusercontent.com/casi-devops-team/31a5680df02c9632830a574ec895db37/raw/687b145aa23db4bc4b50f93c6a3ea94b263323a7/local-casi-mqtt.sh)
    ```
-   Now you can access the mqtt broker server at `http://server-ip-address/` or at `http://server-hostname/`. The server must accept inbound traffic through ports `1883,8083,8084,8883,18083`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
+   Now you can access the mqtt broker server at `http://server-ip-address:18083/` or at `http://server-hostname/:18083`. The server must accept inbound traffic through ports `1883,8083,8084,8883,18083`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
 3. Connect to the database server via SSH or go to terminal:
 4. Run the following command in a server to launch the database server:
    ```
