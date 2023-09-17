@@ -48,7 +48,7 @@
 7. Connect to second backend API server via SSH or open the terminal on the second backend API server:
 8. Run the following command in a server to launch the second backend API server:
    ```
-   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/8f73570ddc96088faa38fe6b96b38933/raw/4a7d87d0cad7e4b88a088df94124b96e045aebab/local-casi-backend-cellular.sh && sudo bash casi_script.sh
+   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/8f73570ddc96088faa38fe6b96b38933/raw/47acad8d551cbd0264f06506a58dc58c3e0df34e/local-casi-backend-cellular.sh && sudo bash casi_script.sh
    ```
 9. Connect to backend API server via SSH or open the terminal on the backend API server:
 10. Run the following command in a server to launch the backend API web server:
