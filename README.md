@@ -57,7 +57,7 @@
     ```
 11. Run the following command in a server to launch the frontend web server:
     ```
-    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/d4dc8614bd2c66902bfe21f7c5333498ca1439da/local-casi-frontend.sh && sudo bash casi_script.sh
+    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/09c1ad72793a4510f1e86b9d0caacf162ba069f2/local-casi-frontend.sh && sudo bash casi_script.sh
     ```
 13. Visit `http://frontend-server-ip-address-or-hostname/`
 
