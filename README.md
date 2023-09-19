@@ -20,20 +20,27 @@
    ```
    bash <(curl -s https://gist.githubusercontent.com/casi-devops-team/31a5680df02c9632830a574ec895db37/raw/2c15e056bcc1bf463c6542103c953adff389010b/local-casi-mqtt.sh)
    ```
-   Now you can access the mqtt broker server at `http://server-ip-address:18083/` or at `http://server-hostname/:18083`. The server must accept inbound traffic through ports `1883,8083,8084,8883,18083`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
-3. Connect to the database server via SSH or go to terminal:
-4. Run the following command in a server to launch the database server:
+   - Now you can access the mqtt broker server at `http://server-ip-address:18083/` or at `http://server-hostname/:18083`.
+   - Default admin credentials for MQTT Broker
+     - username: admin
+     - password: public
+   - The server must accept inbound traffic through ports `1883,8083,8084,8883,18083`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
+4. Connect to the database server via SSH or go to terminal:
+5. Run the following command in a server to launch the database server:
    ```
    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/3a5202275545a4e6db62a6155e59b871a195c320/local-casi-database.sh && sudo bash casi_script.sh
    ```
-   Now you can access influxDB at `http://server-ip-address-or-hostname:8086` and MySQL server via port `3307`.
-   The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
-5. Copy InfluxDB Organization ID:
+   - Now you can access influxDB portal at `http://server-ip-address-or-hostname:8086` and MySQL server via port `3307`.
+   - Default admin credentials for InfluxDB portal
+     - username: influx_user
+     - password: SADafr562c
+   - The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
+6. Copy InfluxDB Organization ID:
    * Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above.
    - Go to **About** section of your organization
      ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
    - Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
-6. Generate INFLUX QUERY TOKEN:
+7. Generate INFLUX QUERY TOKEN:
    - Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
      ![Go to API Tokens](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/5956f7af-fb12-4a71-8206-39af7a4f8b63)
    - Click **GENERATE API TOKEN**.
@@ -45,17 +52,17 @@
    - Click **GENERATE**.
    - Copy API Token and store it securely. You will need this INFLUX QUERY TOKEN in the following steps.
      ![Screenshot (24)](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/575da537-3f8c-4dd1-9e50-5c2eb102222a)
-7. Connect to second backend API server via SSH or open the terminal on the second backend API server:
-8. Run the following command in a server to launch the second backend API server:
+8. Connect to second backend API server via SSH or open the terminal on the second backend API server:
+9. Run the following command in a server to launch the second backend API server:
    ```
    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/8f73570ddc96088faa38fe6b96b38933/raw/601b756366ddecff93f1fdfa18df21583a0103f9/local-casi-backend-cellular.sh && sudo bash casi_script.sh
    ```
-9. Connect to backend API server via SSH or open the terminal on the backend API server:
-10. Run the following command in a server to launch the backend API web server:
+10. Connect to backend API server via SSH or open the terminal on the backend API server:
+11. Run the following command in a server to launch the backend API web server:
     ```
     curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/76d77aaca7cad6f7e8092d38d6a4ffab06e6b71b/local-casi-backend.sh && sudo bash casi_script.sh
     ```
-11. Run the following command in a server to launch the frontend web server:
+12. Run the following command in a server to launch the frontend web server:
     ```
     curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/d8933de7dd0c9bec418bbba2789dc26fac3d2a90/local-casi-frontend.sh && sudo bash casi_script.sh
     ```
