@@ -31,7 +31,7 @@
    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/3a5202275545a4e6db62a6155e59b871a195c320/local-casi-database.sh && sudo bash casi_script.sh
    ```
    - Now you can access influxDB portal at `http://server-ip-address-or-hostname:8086` and MySQL server via port `3307`.
-   - Default admin credentials for InfluxDB portal
+   - Default credentials for InfluxDB portal
      - username: influx_user
      - password: SADafr562c
    - The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
