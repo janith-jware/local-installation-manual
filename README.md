@@ -26,22 +26,15 @@
      - Default admin credentials for MQTT Broker
        - username: `admin`
        - password: `public`
-     - 
    - At this point you can access the mqtt broker server at `http://server-ip-address:18083/` or at `http://server-hostname/:18083` and feel free to setup a new password and enter instead of default credentials.
-   - Default admin credentials for MQTT Broker
-     - username: admin
-     - password: public
-   - The server must accept inbound traffic through ports `1883,8083,8084,8883,18083`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
-5. Connect to the database server via SSH or go to terminal:
-6. Run the following command in a server to launch the database server:
-   ```
-   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/6ec4887a4b022a1d1818f5958a86147a/raw/3a5202275545a4e6db62a6155e59b871a195c320/local-casi-database.sh && sudo bash casi_script.sh
-   ```
-   - Now you can access influxDB portal at `http://server-ip-address-or-hostname:8086` and MySQL server via port `3307`.
-   - Default credentials for InfluxDB portal
-     - username: influx_user
-     - password: SADafr562c
-   - The server must accept inbound traffic through ports `8086, 3307`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
+   - The server must accept inbound traffic through ports `1883,8083,8084,8883,18083,8086,3307,8000`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
+   - If you are asked to Enter Influx Organization ID, follow the instrcutions below to obtain the organization ID:
+     1. access influxDB portal at `http://server-ip-address-or-hostname:8086`
+        - Default credentials for InfluxDB portal
+          - username: influx_user
+          - password: SADafr562c
+     3. sss
+
 7. Copy InfluxDB Organization ID:
    * Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above.
    - Go to **About** section of your organization
