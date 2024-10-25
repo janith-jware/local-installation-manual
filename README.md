@@ -38,9 +38,13 @@
      4. Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
     
 4. Visit `http://frontend-server-ip-address-or-hostname:8000/` and activate your license.
-5. Visit `http://frontend-server-ip-address-or-hostname/`.
+5. Run the following command to reload the app.
+   ```
+   sudo docker restart casi-backend
+   ```
+7. Visit `http://frontend-server-ip-address-or-hostname/`.
    
-6. Generate INFLUX QUERY TOKEN(optional):
+8. Generate INFLUX QUERY TOKEN(optional):
    - Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
      ![Go to API Tokens](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/5956f7af-fb12-4a71-8206-39af7a4f8b63)
    - Click **GENERATE API TOKEN**.
