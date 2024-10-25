@@ -16,10 +16,9 @@
 
 ### API Installation
 1. Connect to the server via SSH or go to terminal.
-2. curl -sSL -o casi_script.sh https://gist.githubusercontent.com/janith-jware/a237771cb043e34143ae6324acf69e2f/raw/015917f560e41e9743e6b8828713b6b212ac261c/casi-consolidated-local-installation.sh && sudo bash casi_script.sh
 3. Run the following command and follow the instructions to launch the mqtt broker.
    ```
-   bash <(curl -s https://gist.githubusercontent.com/casi-devops-team/31a5680df02c9632830a574ec895db37/raw/2c15e056bcc1bf463c6542103c953adff389010b/local-casi-mqtt.sh)
+   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/janith-jware/a237771cb043e34143ae6324acf69e2f/raw/015917f560e41e9743e6b8828713b6b212ac261c/casi-consolidated-local-installation.sh && sudo bash casi_script.sh
    ```
    - Now you can access the mqtt broker server at `http://server-ip-address:18083/` or at `http://server-hostname/:18083`.
    - Default admin credentials for MQTT Broker
