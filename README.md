@@ -33,13 +33,11 @@
         - Default credentials for InfluxDB portal
           - username: influx_user
           - password: SADafr562c
-     3. sss
-
-7. Copy InfluxDB Organization ID:
-   * Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above.
-   - Go to **About** section of your organization
-     ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
-   - Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
+     3. Go to **About** section of your organization
+        ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
+     4. Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
+    
+        
 8. Generate INFLUX QUERY TOKEN:
    - Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
      ![Go to API Tokens](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/5956f7af-fb12-4a71-8206-39af7a4f8b63)
