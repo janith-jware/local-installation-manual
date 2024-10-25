@@ -23,11 +23,11 @@
 
    Notes:
    - If you are asked to enter mqtt broker admin username and password please use the following:
-    - Default admin credentials for MQTT Broker
-     - username: `admin`
-     - password: `public`
+     - Default admin credentials for MQTT Broker
+       - username: `admin`
+       - password: `public`
      - 
-   - Now you can access the mqtt broker server at `http://server-ip-address:18083/` or at `http://server-hostname/:18083`.
+   - At this point you can access the mqtt broker server at `http://server-ip-address:18083/` or at `http://server-hostname/:18083` and feel free to setup a new password and enter instead of default credentials.
    - Default admin credentials for MQTT Broker
      - username: admin
      - password: public
