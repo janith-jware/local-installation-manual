@@ -37,8 +37,10 @@
         ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
      4. Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
     
-        
-8. Generate INFLUX QUERY TOKEN:
+4. Visit `http://frontend-server-ip-address-or-hostname:8000/` and activate your license.
+5. Visit `http://frontend-server-ip-address-or-hostname/`.
+   
+6. Generate INFLUX QUERY TOKEN(optional):
    - Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
      ![Go to API Tokens](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/5956f7af-fb12-4a71-8206-39af7a4f8b63)
    - Click **GENERATE API TOKEN**.
@@ -50,21 +52,5 @@
    - Click **GENERATE**.
    - Copy API Token and store it securely. You will need this INFLUX QUERY TOKEN in the following steps.
      ![Screenshot (24)](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/575da537-3f8c-4dd1-9e50-5c2eb102222a)
-9. Connect to second backend API server via SSH or open the terminal on the second backend API server:
-10. Run the following command in a server to launch the second backend API server:
-   ```
-   curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/8f73570ddc96088faa38fe6b96b38933/raw/601b756366ddecff93f1fdfa18df21583a0103f9/local-casi-backend-cellular.sh && sudo bash casi_script.sh
-   ```
-11. Connect to backend API server via SSH or open the terminal on the backend API server:
-12. Run the following command in a server to launch the backend API web server:
-    ```
-    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/60cd0a7efc4a831aa10005aee5cc31a3/raw/76d77aaca7cad6f7e8092d38d6a4ffab06e6b71b/local-casi-backend.sh && sudo bash casi_script.sh
-    ```
-    - Then, visit `http://backend-api-server-ip-address-or-hostname:8000` to activate the licence.
-13. Run the following command in a server to launch the frontend web server:
-    ```
-    curl -sSL -o casi_script.sh https://gist.githubusercontent.com/casi-devops-team/91fc7200de48d65cf61214973f30cf2e/raw/d8933de7dd0c9bec418bbba2789dc26fac3d2a90/local-casi-frontend.sh && sudo bash casi_script.sh
-    ```
-14. Visit `http://frontend-server-ip-address-or-hostname/`
 
     
