@@ -22,39 +22,13 @@
    ```
 
    Notes:
-   - If you are asked to enter mqtt broker admin username and password please use the following:
-     - Default admin credentials for MQTT Broker
-       - username: `admin`
-       - password: `public`
-   - At this point you can access the mqtt broker server at `http://server-ip-address:18083/` or at `http://server-hostname/:18083` and feel free to setup a new password and enter instead of default credentials.
-   - The server must accept inbound traffic through ports `1883,8083,8084,8883,18083,8086,3307,8000`. Configure the firewall to enable these ports. We recommend you to get support of a professional for firewall configuaration.
-   - If you are asked to Enter Influx Organization ID, follow the instrcutions below to obtain the organization ID:
-     1. access influxDB portal at `http://server-ip-address-or-hostname:8086`
-        - Default credentials for InfluxDB portal
-          - username: influx_user
-          - password: SADafr562c
-     3. Go to **About** section of your organization
-        ![Select About section](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/61f80b7c-7032-4177-927d-d8633583889d)
-     4. Copy the Organization ID and store it securely. You will need this Organization ID in the following steps.
+   - You will be asked to enter the frontend server IP address or hostname once you run the command above. If it is a public server, you may either mention the public IP address of the server or any domain name that is pointed to that server. If you intend access the system across your Local Area Network (LAN), mention the local IP address of your server within the LAN. If you wish to use the app in the same local computer only, mention either `127.0.0.1` or `localhost`.
     
-4. Visit `http://frontend-server-ip-address-or-hostname:8000/` and activate your license.
-5. Run the following command to reload the app.
+2. Visit `http://frontend-server-ip-address-or-hostname:8000/` and activate your license.
+3. Run the following command to reload the app.
    ```
    sudo docker restart casi-backend
    ```
-7. Visit `http://frontend-server-ip-address-or-hostname/`.
+4. Visit `http://frontend-server-ip-address-or-hostname/`.
    
-8. Generate INFLUX QUERY TOKEN(optional):
-   - Visit `http://influxDB-server-ip-address-or-hostname:8086` as mentioned above and Go to **API Tokens** as shown below.
-     ![Go to API Tokens](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/5956f7af-fb12-4a71-8206-39af7a4f8b63)
-   - Click **GENERATE API TOKEN**.
-     ![Click GENERATE API TOKEN](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/97833c4a-aa39-4516-b51d-3a19e897df7f)
-   - Select **Custom API Token**.
-     ![Select Custom API Token](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/f175fb71-2a95-4ba9-9cf3-2ce3c2c8b77e)
-   - Allow Read and Write permission for All buckets and All Telegrafs.
-     ![Screenshot (23)](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/0922571e-81f6-4793-9656-c4dce568ce68)
-   - Click **GENERATE**.
-   - Copy API Token and store it securely. You will need this INFLUX QUERY TOKEN in the following steps.
-     ![Screenshot (24)](https://github.com/casi-devops-team/local-installation-manual/assets/136977780/575da537-3f8c-4dd1-9e50-5c2eb102222a)
-
     
