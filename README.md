@@ -4,11 +4,11 @@
  - Ubuntu Web Server
 
 #### Server Requirements:
-| 4 vCPUs |
-| 16GB RAM |
-| 50GB Storage |
-| Intel 64bit CPU Architecture |
-| Ubuntu 20.04 |
+- 4 vCPUs
+- 16GB RAM
+- 50GB Storage
+- Intel 64bit CPU Architecture
+- Ubuntu 20.04
 
 ### Installation
 1. Connect to the server via SSH or go to terminal.
