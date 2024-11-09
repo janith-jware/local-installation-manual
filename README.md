@@ -1,20 +1,16 @@
 # CASI Local Installation Manual
 
 ### Recommended Requirements:
- - 3 Web Servers
- - Database Server
- - MQTT Broker Server
+ - Ubuntu Web Server
 
 #### Server Requirements:
-| API | API2 | Frontend App | MQTT Broker | Database Server |
-|--|--|--|--|--|
-| 4 vCPUs | 2 vCPUs | 1 vCPU | 2 vCPUs | 2 vCPUs |
-| 16GB RAM | 8GB RAM | 1GB RAM | 4GB RAM | 4GB RAM |
-| 50GB Storage | 50GB Storage | 8GB Storage | 8GB Storage | 100GB Storage (To be scaled with usage growth) |
-| Intel 64bit CPU Architecture | Intel 64bit CPU Architecture | Intel 64bit CPU Architecture  | Intel 64bit CPU Architecture  | Intel 64bit CPU Architecture  |
-| Ubuntu 20.04 | Ubuntu 20.04 | Ubuntu 20.04 | Ubuntu 20.04 | Ubuntu 20.04 |
+| 4 vCPUs |
+| 16GB RAM |
+| 50GB Storage |
+| Intel 64bit CPU Architecture |
+| Ubuntu 20.04 |
 
-### API Installation
+### Installation
 1. Connect to the server via SSH or go to terminal.
 3. Run the following command and follow the instructions to launch the mqtt broker.
    ```
